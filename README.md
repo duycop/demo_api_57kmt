@@ -4,4 +4,5 @@ code c# aspx ở trong file api.aspx.cs : thằng này gọi sp_chart để lấ
 
 code js trong file index.html: thằng js sẽ dùng ajax để gọi api.aspx, truyền lên sid=1 và lấy về json, biến đổi 1 chút, rồi dùng thư viện google chart để vẽ biểu đồ.
 
-*thư viện google chart* : https://developers.google.com/chart/interactive/docs/gallery
+# thư viện google chart: 
+nó ở đây: https://developers.google.com/chart/interactive/docs/gallery
