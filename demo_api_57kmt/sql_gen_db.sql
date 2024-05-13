@@ -8354,7 +8354,7 @@ BEGIN
 		begin
 			if(@time_old is not null)
 				insert into @kq(value,time)values(@value_old,@time_old);
-			if(@ss>30)
+			if(@ss>60)
 			begin
 				insert into @kq(value,time)values(0,@time_old),(0,@time);
 			end
